@@ -14,4 +14,12 @@ cp  ~/versuche_marlin/Configurations/config/examples/Creality/Ender-3/CrealityV4
 * Extension: PlatformIO IDE
 * Extension: Auto Build Marlin
 
+Enable MESH_BED_LEVELING
+
+# Flash
+
 Build "PROJECT TASKS": STM32F103RET6_creality_maple
+
+Version: firmware-20210620-Maerki-A.bin Maerki-A
+  MESH_BED_LEVELING
+  RESTORE_LEVELING_AFTER_G28
