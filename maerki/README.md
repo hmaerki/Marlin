@@ -33,3 +33,11 @@ Version: firmware-20210717-220133.bin Maerki-D
   * disable LCD_BED_LEVELING
   * BLTOUCH (Z_SAFE_HOMING)
   * firmware-20210717-Maerki-D.bin
+
+Version
+  * Enable BLTouch
+  * https://marlinfw.org/docs/features/auto_bed_leveling.html
+  * disable MESH_BED_LEVELING
+  * AUTO_BED_LEVELING_BILINEAR
+  * LCD_BED_LEVELING
+  * firmware-20210717-Maerki-E.bin
