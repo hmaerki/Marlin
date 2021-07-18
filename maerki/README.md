@@ -18,15 +18,15 @@ cp  ~/versuche_marlin/Configurations/config/examples/Creality/Ender-3/CrealityV4
 
 Build "PROJECT TASKS": STM32F103RET6_creality_maple
 
-Version: firmware-20210620-Maerki-B.bin Maerki-B
+Version: firmware-20210620-Maerki-B.bin
   * MESH_BED_LEVELING
   * LCD_BED_LEVELING
   * RESTORE_LEVELING_AFTER_G28
 
-Version: firmware-20210703-Maerki-C.bin Maerki-C
+Version: firmware-20210703-Maerki-C.bin
   * FILAMENT_RUNOUT_SENSOR (ADVANCED_PAUSE_FEATURE, NOZZLE_PARK_FEATURE)
 
-Version: firmware-20210717-Maerki-D.bin Maerki-D
+Version: firmware-20210717-Maerki-D.bin
   * Enable BLTouch
   * https://youtu.be/NTwEaVxEe1s
   * https://crosslink.io/2021/04/26/ender-3-v2-bltouch-upgrade-creality-4-2-2-or-4-2-7-mainboard/
@@ -34,7 +34,7 @@ Version: firmware-20210717-Maerki-D.bin Maerki-D
   * BLTOUCH (Z_SAFE_HOMING)
   * ==> Does NOT work
 
-Version firmware-20210718-Maerki-E.bin Maerki-E
+Version firmware-20210718-Maerki-E.bin
   * Enable BLTouch
   * https://marlinfw.org/docs/features/auto_bed_leveling.html
   * disable MESH_BED_LEVELING
@@ -42,7 +42,11 @@ Version firmware-20210718-Maerki-E.bin Maerki-E
   * LCD_BED_LEVELING
   * ==> Does NOT work
 
-Version firmware-20210718-Maerki-F.bin Maerki-F
+Version firmware-20210718-Maerki-F.bin
   * https://reprap.org/forum/read.php?415,880766
   * disable Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
   * USE_PROBE_FOR_Z_HOMING
+  * ==> Does NOT work
+
+Version firmware-20210718-Maerki-G.bin
+  * change NOZZLE_TO_PROBE_OFFSET
