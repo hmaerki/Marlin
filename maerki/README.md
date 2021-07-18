@@ -26,18 +26,23 @@ Version: firmware-20210620-Maerki-B.bin Maerki-B
 Version: firmware-20210703-Maerki-C.bin Maerki-C
   * FILAMENT_RUNOUT_SENSOR (ADVANCED_PAUSE_FEATURE, NOZZLE_PARK_FEATURE)
 
-Version: firmware-20210717-220133.bin Maerki-D
+Version: firmware-20210717-Maerki-D.bin Maerki-D
   * Enable BLTouch
   * https://youtu.be/NTwEaVxEe1s
   * https://crosslink.io/2021/04/26/ender-3-v2-bltouch-upgrade-creality-4-2-2-or-4-2-7-mainboard/
   * disable LCD_BED_LEVELING
   * BLTOUCH (Z_SAFE_HOMING)
-  * firmware-20210717-Maerki-D.bin
+  * ==> Does NOT work
 
-Version
+Version firmware-20210718-Maerki-E.bin Maerki-E
   * Enable BLTouch
   * https://marlinfw.org/docs/features/auto_bed_leveling.html
   * disable MESH_BED_LEVELING
   * AUTO_BED_LEVELING_BILINEAR
   * LCD_BED_LEVELING
-  * firmware-20210717-Maerki-E.bin
+  * ==> Does NOT work
+
+Version firmware-20210718-Maerki-F.bin Maerki-F
+  * https://reprap.org/forum/read.php?415,880766
+  * disable Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+  * USE_PROBE_FOR_Z_HOMING
