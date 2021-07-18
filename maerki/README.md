@@ -50,3 +50,11 @@ Version firmware-20210718-Maerki-F.bin
 
 Version firmware-20210718-Maerki-G.bin
   * change NOZZLE_TO_PROBE_OFFSET
+  * ==> Works somehow
+
+Version firmware-20210718-Maerki-H.bin
+  * PREHEAT_BEFORE_LEVELING
+  * EXTRAPOLATE_BEYOND_GRID
+  * MULTIPLE_PROBING 2
+  * Z_AFTER_PROBING 5
+  * GRID_MAX_POINTS_X 4
