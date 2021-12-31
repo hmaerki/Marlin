@@ -64,3 +64,8 @@ Version firmware-20210721-Maerki-I.bin
   * PROBING_MARGIN 20
   * disable RESTORE_LEVELING_AFTER_G28
   * ENABLE_LEVELING_AFTER_G28
+
+Version firmware-20211231-Maerki-J.bin
+  * enable PROBE_OFFSET_WIZARD (Menu Configuration -> Advanced Settings -> Probe Offsets -> Z-Probe Wizard)
+  * How to use, see https://youtu.be/XpJwdraTebQ
+  * enable LEVEL_BED_CORNERS (Menu Motion -> Bed Leveling -> Level Corners)
