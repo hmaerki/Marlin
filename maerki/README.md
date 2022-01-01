@@ -6,7 +6,7 @@ https://www.aliexpress.com/item/1005001708452825.html
 
 US $29.05, Newest CRELAITY 3D Upgrade 32 Bits Silent Mainboard For Ender-3/Ender-3Pro/ Ender-5 Printer
 
-# Prepare
+## Prepare
 
 cp  ~/versuche_marlin/Configurations/config/examples/Creality/Ender-3/CrealityV427/* ~/versuche_marlin/Marlin/Marlin/
 
@@ -14,7 +14,11 @@ cp  ~/versuche_marlin/Configurations/config/examples/Creality/Ender-3/CrealityV4
 * Extension: PlatformIO IDE
 * Extension: Auto Build Marlin
 
-# Flash
+## Monitor
+
+minicom -D /dev/ttyUSB0
+
+## Firmware
 
 Build "PROJECT TASKS": STM32F103RET6_creality_maple
 
